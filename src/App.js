@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import {EventosES6,EventosES7,} from './components/Eventos';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
+import RenderizadoElementos from './components/RenderizadoElementos';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <RenderizadoCondicional/>
+      <hr/>
+      <RenderizadoElementos/>
+      <hr/>
+      <EventosES6></EventosES6>
+      <hr/>
+      <EventosES7></EventosES7>
+    </>
   );
 }
 

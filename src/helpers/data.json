@@ -1,0 +1,29 @@
+{
+    "Frameworks":[
+        {
+            "id":1,
+            "name":"React",
+            "web":"link1"
+        },
+        {
+            "id":2,
+            "name":"Angular",
+            "web":"link2"
+        },
+        {
+            "id":3,
+            "name":"Svelt",
+            "web":"link3"
+        },
+        {
+            "id":4,
+            "name":"Qwik",
+            "web":"link4"
+        },
+        {
+            "id":5,
+            "name":"Astro",
+            "web":"link5"
+        }
+    ]
+}
